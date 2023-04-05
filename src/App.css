@@ -1,0 +1,86 @@
+:root {
+  --color1: #6fe2dc;
+  --color2: #28292B;
+  --font1: 'Gruppo', cursive;
+  --font2: 'Roboto', sans-serif;
+}
+
+p {
+  font-family: var(--font1);
+}
+
+.title-box  {
+  border-radius: 8px;
+  padding: 10px;
+  color: white;
+  height: 100px;
+  background-color: #28292B;
+  display: flex;
+}
+
+.standard-marg {
+  margin: 10px;
+}
+
+.maxw {
+  max-width: 500px;
+}
+
+.flex {
+  display: flex;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.font1 {
+  font-family: var(--font1);
+}
+
+.font2 {
+  font-family: var(--font2);
+}
+
+.space {
+  justify-content: space-around;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+.center-h {
+  justify-content: center;
+}
+
+li {
+  color: white;
+  text-decoration: none;
+}
+
+.quiz {
+  width: 600px; 
+  margin: 100px auto;
+}
+
+.answers {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
+.adminquiz {
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  font-family: var(--font1);
+}
+

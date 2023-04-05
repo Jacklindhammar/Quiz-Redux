@@ -1,0 +1,41 @@
+
+.divContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 10px;
+  background-color: blueviolet;
+  border-radius: 8px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  margin: 0;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Serif', serif;
+}
+
+input {
+  margin-bottom: 5px;
+  font-family: var(--font2);
+  width: 200px;
+  background-color: white;
+  color: var(--color);
+  border: none;
+  border-radius: 2px;
+  margin: auto auto;
+}
+
+.space {
+  margin-top: 10px;
+}
